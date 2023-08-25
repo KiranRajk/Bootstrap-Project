@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <!-- <nav> -->
+  <!-- nav -->
   <nav class="navbar navbar-expand-lg p-3 shadow sticky-top ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img width="40px" height="40px"
@@ -33,54 +33,47 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 font-monospace fw-bolder">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#carouselExampleCaptions">Home</a>
+            <a class="nav-link" aria-current="page" href="#carouselExampleAutoplaying">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Bestsellers</a>
+            <a class="nav-link" href="#best">Bestsellers</a>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+            <a class="nav-link dropdown-toggle " href="#myTab" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
               Products
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Jackets</a></li>
-              <li><a class="dropdown-item" href="#">Sneakers</a></li>
+              <li><a class="dropdown-item" href="#home-tab">Sneakers</a></li>
+              <li><a class="dropdown-item" href="#profile-tab">Streetwear</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#contactUs">Contact Us</a>
           </li>
         </ul>
-        <!-- <span class="navbar-text">
-                  Navbar text with an inline element
-                </span> -->
-        <!-- <form> -->
-        <div class="d-none d-md-inline">
-          <button class="btn btn-outline-success me-2 p-2 pt-1" type="button">
+        
+        <!-- form -->
+        <div class="d-non d-md-inline">
+          <button class="btn btn-sm btn-outline-success me-2 p-2 pt-1" type="button">
             Log In
           </button>
-          <button class="btn btn-outline-success me-2 p-2 pt-1" type="button">
+          <button class="btn btn-sm btn-outline-success me-2 p-2 pt-1" type="button">
             Sign Up
           </button>
         </div>
-        <!-- </form> -->
+        <!-- form -->
       </div>
     </div>
   </nav>
 
-  <!-- </nav> -->
+  <!-- nav -->
 
-  <!-- <carousel> -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <!-- <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div> -->
+  <!-- carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./green thrift crop resize.jpg" class="d-block w-100" alt="...">
@@ -105,19 +98,19 @@
           </div>
         </div> -->
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   </section>
-  <!-- </carousel> -->
+  <!-- carousel -->
 
-  <!-- <about>-->
+  <!-- about-->
     <section id="about">
       <div class="container px-lg-5 ">
           <div class="row gy-4 align-items-center ">
@@ -136,10 +129,9 @@
           </div>
       </div>
       </section>
+ <!-- about  -->
 
-  <!-- </about>  -->
-
-  <!-- <Bestsellers> -->
+  <!-- Bestsellers -->
     <section id="best" class="container">
  
       <h1 class="text-center">Bestsellers</h1>
@@ -147,10 +139,10 @@
     
   <div class="row gap-5 justify-content-center">
     <!-- card 1 -->
-    <div class="card col-8 col-md-4 col-lg-3" >
-      <img src="./lost and found.webp" class="card-img-top" alt="Lost and Found Air Jordan 1" style="height: 12rem;" >
+    <div class="card col-7 col-md-4 col-lg-3" >
+      <img src="./lost and found.webp" class="card-img-top object-fit-contain" alt="Lost and Found Air Jordan 1" style="height: 12rem;" >
       <div class="card-body">
-        <h5 class="card-text text-center">Lost and Found' Air Jordan 1</h5><br>
+        <h5 class="card-text text-center mb-xl-4 mb-lg-3">Lost and Found' Air Jordan 1</h5>
         <!-- Rating -->
         <div class="text-center mb-2">
           <i class="fas fa-star text-success"></i>
@@ -169,8 +161,8 @@
     <!-- card 1 -->
 
     <!-- card 2 -->
-    <div class="card col-8 col-md-4 col-lg-3">
-      <img src="./yeezy boost 350 v2.webp" class="card-img-top" alt="Yeezy Boost 350 V2" style="height: 12rem; " >
+    <div class="card col-7 col-md-4 col-lg-3 ">
+      <img src="./yeezy boost 350 v2.webp" class="card-img-top object-fit-contain" alt="Yeezy Boost 350 V2" style="height: 12rem; " >
       <div class="card-body">
         <h5 class="card-text text-center">Yeezy Boost 350 V2 'Tail Light'</h5>
                 <!-- Rating -->
@@ -182,7 +174,7 @@
                   <i class="far fa-star text"></i>
               </div>
         <p class="text-center text-muted">₹44,999</p>
-        <div class="card-footer text-center">
+        <div class="card-footer text-center ">
         <a href="#" class="btn btn-sm btn-outline-success " >Buy Now</a>
         </div>
       </div>
@@ -190,8 +182,8 @@
     <!-- card 2-->
  
      <!-- card 3 -->
-    <div class="card col-8 col-md-4 col-lg-3" >
-      <img src="./Nike Tiffany blue.webp" class="card-img-top" alt="Tiffany & Co. x Air Force 1 Low '1837'" style="height: 12rem;" >
+    <div class="card col-7 col-md-4 col-lg-3 " >
+      <img src="./Nike Tiffany blue.webp" class="card-img-top object-fit-contain" alt="Tiffany & Co. x Air Force 1 Low '1837'" style="height: 12rem;" >
       <div class="card-body">
         <h5 class="card-text text-center">Tiffany & Co. x Air Force 1 Low '1837'</h5>
                 <!-- Rating -->
@@ -211,8 +203,8 @@
     <!-- card 3 -->
 
     <!-- card 4 -->
-    <div class="card col-8 col-md-4 col-lg-3">
-      <img src="./Nike panda.webp" class="card-img-top" alt="Nike Panda Low" style="height: 12rem;">
+    <div class="card col-7 col-md-4 col-lg-3 ">
+      <img src="./Nike panda.webp" class="card-img-top object-fit-contain" alt="Nike Panda Low" style="height: 12rem;">
       <div class="card-body">
           <h5 class="card-title text-center">Nike Dunk Low Retro "Panda"</h5>
                   <!-- Rating -->
@@ -238,13 +230,540 @@
   </div>
     </section>
 
-  <!-- </Bestsellers> -->
+  <!-- Bestsellers -->
 
-  <!-- <Products> -->
-  <!-- </Products> -->
+  <!-- Products -->
+     <section id="products" class="container">
+        <h1 class="text-center">Products</h1>
 
-  <!-- <Contact us> -->
-  <!-- </Contact> -->
+        <ul class="nav nav-tabs justify-content-center my-4" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active text-success-emphasis" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Sneakers</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-success-emphasis" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Streetwear</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <!-- Tab 1 content start-->
+          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+            <div class="row gap-5 justify-content-center">
+            <!-- Card 1 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Off-White x Air Jordan 1 Retro High OG 'UNC'.webp" class="card-img-top object-fit-contain" alt="Off-White x Air Jordan 1 Retro High OG 'UNC" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Off-White x Air Jordan 1 Retro High OG 'UNC'</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted">₹3,00,000</p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 1 Ends Here -->
+
+            <!-- Card 2 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./New Balance 550 'Sea Salt'.webp" class="card-img-top object-fit-contain" alt="New Balance 550 'Sea Salt" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center my-xl-1 my-lg-3 my-md-3 my-xxl-3">New Balance 550 'Sea Salt' </h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2">₹22,999<span class="text-danger text-decoration-line-through mx-2">₹24,999</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 2 Ends Here-->
+
+            <!-- Card 3 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Air Jordan 1 x Marvel Spider Man Across the Spider-Verse  Next Chapter.webp" class="card-img-top object-fit-contain" alt="Air Jordan 1 x Marvel Spider Man Across the Spider-Verse  Next Chapter " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Air Jordan 1 x Marvel "Next Chapter "</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted">₹18,999 </p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 3 Ends Here -->
+
+            <!-- Card 4 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Yeezy Boost 350 V2 'Carbon Beluga'.webp" class="card-img-top object-fit-contain" alt="Yeezy Boost 350 V2 'Carbon Beluga'" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Yeezy Boost 350 V2 'Carbon Beluga'</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2">₹30,499<span class="text-danger text-decoration-line-through mx-2">₹33,499</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 4 Ends Here -->
+
+            <!-- Card 5 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Salehe Bembury x Crocs Pollex Clog 'Kuwata'.webp" class="card-img-top object-fit-contain" alt="Salehe Bembury x Crocs Pollex Clog 'Kuwata'" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Salehe Bembury x Crocs Pollex Clog 'Kuwata'</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted">₹16,999</p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 5 Ends Here -->
+
+            <!-- Card 6 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Yeezy Boost 350 V2 'Static Non-Reflective' 2023.webp" class="card-img-top object-fit-contain" alt="Yeezy Boost 350 V2 'Static Non-Reflective' 2023" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Yeezy Boost 350 V2 'Static Non-Reflective' 2023</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2">₹24,999<span class="text-danger text-decoration-line-through mx-2">₹32,999</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 6 Ends Here -->
+
+            <!-- Card 7 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Air Jordan 4 Retro 'Black Canvas'.webp" class="card-img-top object-fit-contain" alt="Air Jordan 4 Retro 'Black Canvas'" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Air Jordan 4 Retro 'Black Canvas''</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted">₹36,999</p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 7 Ends Here -->
+
+            <!-- Card 8 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Air Jordan 1 Low Golf 'Shattered Backboard'.webp" class="card-img-top object-fit-contain" alt="Air Jordan 1 Low Golf 'Shattered Backboard'" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Air Jordan 1 Low Golf 'Shattered Backboard'</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted">₹27,999</p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 8 Ends Here -->
+
+            <!-- Card 9 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Nike Dunk Low SB 'Orange Lobster' x Concepts.webp" class="card-img-top object-fit-contain" alt="Nike Dunk Low SB 'Orange Lobster' x Concepts" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Nike Dunk Low SB 'Orange Lobster' x Concepts</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2">₹65,999<span class="text-danger text-decoration-line-through mx-2">₹69,999</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 9 Ends Here -->
+          </div>
+
+
+          </div>
+           <!-- Tab 1 Content Ends -->
+
+            <!-- Tab 2 Content Start -->
+          <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div class="row justify-content-center gap-5">
+
+            <!-- Card 1 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Drew House Mascot Hoodie 'Cream'.webp" class="card-img-top object-fit-contain" alt="Drew House Mascot Hoodie 'Cream' " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center my-md-3 my-lg-1">Drew House Mascot Hoodie "Cream"</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted ">₹23,999</p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 1 Ends Here -->
+
+            <!-- Card  2-->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Fear of God Essentials Hoodie 'Coral'.webp" class="card-img-top object-fit-contain" alt="Fear of God Essentials Hoodie 'Coral' " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center my-xl-1 my-lg-1 my-md-3 my-xxl-3">FOG Essentials Hoodie Coral</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted ">₹18,999</p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 2 Ends Here -->
+
+            <!-- Card 3 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./FOG Essentials Sweatshirt Black.webp" class="card-img-top object-fit-contain" alt="FOG Essentials Sweatshirt Black" style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center my-md-3 my-lg-1">FOG Essentials Sweatshirt Black</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2 ">₹12,999<span class="text-danger text-decoration-line-through mx-2">₹14,999</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 3 Ends Here -->
+
+            <!-- Card 4 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Essentials SS20 Cream Short Sleeve T-shirt.webp" class="card-img-top object-fit-contain" alt="Essentials SS20 Cream Short Sleeve T-shirt " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center my-md-3 ">Essentials SS20 Cream Short Sleeve </h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2">₹10,499<span class="text-danger text-decoration-line-through mx-2">₹13,499</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 4 Ends Here -->
+
+            <!-- Card 5 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Drew Mascot Short Sleeve Tee Lavender.webp" class="card-img-top object-fit-contain" alt="Drew Mascot Short Sleeve Tee Lavender " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center my-md-3">Drew Mascot Short Sleeve Tee</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2 ">₹10,999<span class="text-danger text-decoration-line-through mx-2">₹13,999</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 5 Ends Here -->
+
+            <!-- Card 6  -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./ANTI SOCIAL SOCIAL CLUB BASIC WHITE TEE.webp" class="card-img-top object-fit-contain" alt="ANTI SOCIAL SOCIAL CLUB BASIC WHITE TEE " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center  my-md-1 my-lg-1 my-xl-3">ANTI SOCIAL SOCIAL CLUB BASIC WHITE TEE</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2">₹5,999<span class="text-danger text-decoration-line-through mx-2">₹7,499</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 6 Ends Here -->
+
+            <!-- Card 7 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./FOG Essentials SS23 Short-Sleeve Tee 'Light Tuscan'.webp" class="card-img-top object-fit-contain" alt="FOG Essentials SS23 Short-Sleeve Tee 'Light Tuscan' " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">FOG Essentials SS23 Tee 'Light Tuscan'</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2 ">₹7,999<span class="text-danger text-decoration-line-through mx-2">₹9,499</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 7 Ends Here -->
+
+            <!-- Card 8 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Drew House Mascot Hoodie Black.webp" class="card-img-top object-fit-contain" alt="Drew House Mascot Hoodie Black " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Drew House Mascot Hoodie "Black"</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted ">₹23,999</p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 8 Ends Here -->
+
+            <!-- Card 9 -->
+            <div class="card card col-7 col-md-4 col-lg-3">
+              <img src="./Drew Mascot Short Sleeve Tee Cream.webp" class="card-img-top object-fit-contain" alt="Drew Mascot Short Sleeve Tee 'Cream' " style="height: 12rem;">
+              <div class="card-body">
+                <h5 class="card-title text-center">Drew Mascot Short Sleeve Tee "Cream"</h5>
+                        <!-- Rating -->
+                        <div class="text-center mb-2">
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                        </div>
+                <p class="card-text text-center text-muted mx-2">₹10,999<span class="text-danger text-decoration-line-through mx-2">₹13,999</span></p>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-sm btn-outline-success ">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Card 9 Ends Here -->
+           </div>
+
+          </div>
+          <!-- Tab 2 Content Ends Here -->
+  
+        </div>
+        </section>
+
+  <!-- Products -->
+
+  <!-- Contact us -->
+  <section id="contactUs">
+      
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+       
+        <form class="bg-light px-sm-2 py-sm-2 ps-lg-5 pt-lg-4 pe-lg-5 pb-lg-3">
+          <div class="row mb-3">
+            <label for="inputname" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-person-circle"></i>
+                </span>
+              <input type="text" class="form-control" placeholder="Full Name" id="inputname">
+              <span class="input-group-text">
+                <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="Enter your name"><i class="bi bi-question-circle text-muted"></i></span>
+              </span>
+            </div>
+            </div>
+          </div>
+    
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label ">Email</label>
+            <div class="col-sm-10">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-envelope-fill"></i>
+                </span>
+              <input type="email" class="form-control" placeholder="example@gmail.com" id="inputEmail3">
+              <span class="input-group-text">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="Enter an email we can reach you">
+                <i class="bi bi-question-circle text-muted"></i></span>
+            </span>
+            </div>
+            </div>
+          </div>
+    
+          <div class="row mb-3">
+            <label for="inputmessage" class="col-sm-2 col-form-label">Message</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="inputmessage" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-lg  mt-3  btn-success" data-bs-toggle="modal" data-bs-target="#submit-personal">Send Now</button>
+            
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="submit-personal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >Confirmation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure you want to send the details?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Send</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cancel</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+          </div>
+          
+        </form>
+       
+      </div>
+
+  </section>
+  <!-- Contact -->
+
+<!-- Footer -->
+<footer class=" text-center " style="background-color:#A0C49D;">
+  <!-- Grid container -->
+  <div class="container p-4 pb- py-5">
+    <!-- Section: Social media -->
+    <sections class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-dark  m-1" href="#!" role="button"
+        ><i class="bi bi-facebook"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-instagram"></i
+      ></a>
+    </sections>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-info-emphasis " href="#">ThriftNation.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+ <!-- Footer -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
