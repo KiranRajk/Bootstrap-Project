@@ -77,5 +77,11 @@ section{
     font-family: 'Shrikhand', cursive;
 }
 
-
+/* Center the image on screens smaller than 768px */
+/* @media (max-width: 768px) {
+    .center-image {
+        display: block;
+        margin: 0 auto;
+    }
+} */
 
